@@ -15,4 +15,4 @@ change_bg.load_pascalvoc_model("D:\\xception_pascalvoc.pb")
 #b_image_path: background image for original image
 #output_image_name: The new image with a changed background.
 
-change_bg.change_bg_img(f_image_path = "D:\\view2.jpg",b_image_path = "D:\\back.jpg", output_image_name="D:\\new_img.jpg")
+change_bg.change_bg_img(f_image_path = "D:\\original.jpg",b_image_path = "D:\\back.jpg", output_image_name="D:\\new_img.jpg")
